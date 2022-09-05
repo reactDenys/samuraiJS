@@ -1,0 +1,18 @@
+.header {
+    background-color: aquamarine;
+    grid-area: header;
+}
+
+.header_logo {
+    width: 50px;
+    padding: 5px 20px;
+}
+
+.login {
+    float: right;
+}
+
+.login a {
+    color: #333333;
+    text-decoration: none;
+}

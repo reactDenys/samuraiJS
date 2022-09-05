@@ -1,0 +1,27 @@
+.dialogs {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogUsrs {
+    border-right: 1px solid #333;
+}
+
+.dialogUsrs span {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.dialog_list {
+    padding: 10px 0 10px 20px;
+    line-height: 1.5;
+    color: #333333;
+    font-weight: 500;
+
+}
+
+
+.messages {
+    padding: 35px 60px;
+}

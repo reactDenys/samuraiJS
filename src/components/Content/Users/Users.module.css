@@ -1,0 +1,65 @@
+h3 {
+    margin: 0;
+}
+
+h2 {
+    margin: 20px 30px;
+}
+
+.userAva {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.user {
+    display: flex;
+
+    margin: 5px 0;
+}
+
+.userProfile {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.userInfo {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding:  15px;
+    border: 1px solid darkslategrey;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.userLocation {
+    font-weight: 700;
+    color: #333333;
+    font-size: 20px;
+}
+
+.userContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userStatus {
+    font-style: italic;
+}
+
+.userStatus span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.selectedPage {
+    font-weight: bold;
+}
+
+.pagesBar span {
+    margin: 0 2px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,32 @@
+.nav {
+    padding: 10px;
+    grid-area: nav;
+    background-color: coral;
+}
+
+.item a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+}
+
+.item a.active {
+    color: gold;
+}
+
+.item:last-child {
+    margin-top: 40px;
+}
+
+.ava {
+    padding-top: 10px;
+}
+
+.avaItem {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
