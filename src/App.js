@@ -5,7 +5,7 @@ import News from "./components/Content/News/News";
 import Stats from "./components/Content/Stats/Stats";
 import Music from "./components/Content/Music/Music";
 
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 import DialogsContainer from "./components/Content/Dialogs/DialogsContainer";
 import NavbarContainer from "./components/Navbar/NavbarContainer";
 import UsersContainer from "./components/Content/Users/UsersContainer";
@@ -16,7 +16,7 @@ import Login from "./components/Content/Login/Login";
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div className="App">
                 <HeaderContainer/>
                 <NavbarContainer/>
@@ -33,7 +33,7 @@ const App = () => {
                     </Routes>
                 </div>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
