@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/samuraiJS/static/css/main.1c45d9d3.css",
+    "main.js": "/samuraiJS/static/js/main.52a6d0d4.js",
+    "static/media/Preloader.gif": "/samuraiJS/static/media/Preloader.63d7da1bc33c0063002c.gif",
+    "index.html": "/samuraiJS/index.html",
+    "main.1c45d9d3.css.map": "/samuraiJS/static/css/main.1c45d9d3.css.map",
+    "main.52a6d0d4.js.map": "/samuraiJS/static/js/main.52a6d0d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c45d9d3.css",
+    "static/js/main.52a6d0d4.js"
+  ]
+}
